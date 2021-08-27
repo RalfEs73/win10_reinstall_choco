@@ -14,10 +14,6 @@ choco feature enable --name=allowGlobalConfirmation
 choco feature enable -n=useRememberedArgumentsForUpgrades
 Write-Host "Done"
 
-Write-Host "Installing Chocolatey GUI"
-choco install ChocolateyGUI
-Write-Host "Done"
-
 Write-Host "Installing ChocoUpdateNotifier"
 choco install choco-update-notifier
 Write-Host "Done"
